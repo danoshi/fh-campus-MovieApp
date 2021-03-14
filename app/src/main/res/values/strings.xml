@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">fh-campus-MovieApp</string>
+    <string name="app_name">MovieApp</string>
+    <string name="titel">The Queens Gambit</string>
+    <string name="creators">Creators: </string>
+    <string name="actors">Actors: </string>
+    <string name="Story">Story</string>
+    <string name="genre">Drama, Sport </string>
+    <string name="bio">Story
+\n\nThe Queens Gambit is an American coming-of-age drama miniseries created by Scott Frank and Allan Scott.
+\n\nIt is based on the novel by Walter Tevis. The series is a story that explores the true cost of genius.
+\nOn January 8, 2021 Netflix released a documentary film named Creating The Queens Gambit.
+\n\nAbandoned and entrusted to a Kentucky orphanage in the late 1950s,
+\na young Beth Harmon discovers an astonishing talent for chess while developing an addiction to tranquilizers provided by the state as a sedative for the children.
+\nHaunted by her personal demons and fueled by a cocktail of narcotics and obsession,
+\n\nBeth transforms into an impressively skilled and glamorous outcast while determined to conquer the traditional boundaries established in the male-dominated world of competitive chess.
+\n\nOn February 3, 2021,
+\nthe series was nominated for the 78th annual Golden Globe Awards in 2 categories. \n\n</string>
+    <string name="namesCreators">Scott Frank, Alan Scott</string>
+    <string name="namesActors">Anya Taylor-Joy, Chloe Pirrie</string>
+
 </resources>
