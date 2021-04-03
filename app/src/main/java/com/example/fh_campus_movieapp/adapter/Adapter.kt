@@ -39,8 +39,7 @@ class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>(){
 
     private val movies = arrayOf(movie1)
     private val titles = arrayOf(movie1.title, )
-    private val creators =
-        arrayOf(movie1.creators)
+    private val creators = arrayOf(movie1.creators)
     private val actors = arrayOf(movie1.actors)
 
 
@@ -62,9 +61,8 @@ class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>(){
 
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
         viewHolder.cTitle.text = titles[position]
-        viewHolder.cCreators.text =
-            creators[position].toString().replace("[", "").replace("]", "")
-        viewHolder.cActors.text = actors[position].toString().replace("[", "").replace("]", "")
+        viewHolder.cCreators.text = creators[position].toString()
+        viewHolder.cActors.text = actors[position].toString()
         viewHolder.cButton.setOnClickListener { view: View ->
             view.findNavController()
                 .navigate(
