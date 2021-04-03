@@ -1,6 +1,17 @@
 package com.example.fh_campus_movieapp.collections.movie
 
-import androidx.annotation.Nullable
+import android.widget.TextView
+import androidx.databinding.BindingAdapter
+import java.io.Serializable
 
-data class Movie(var title: String = "", var descripton: String = "", var rating: Float, @Nullable var geners: String = "",
-var creators: String = "",  var actors: String = "")
+@BindingAdapter("android:text")
+fun setText(view: TextView, list: List<String>) {
+    view.text = list.joinToString(", ")
+}
+
+data class Movie(var title: String = "",
+                 var descripton: String = "",
+                 var rating: Float,
+                 var geners: List<String>? = null,
+                 var creators: List<String> = emptyList(),
+                 var actors: List<String> = emptyList()):Serializable

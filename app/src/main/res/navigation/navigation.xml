@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fh_campus_movieapp.fragments.HomeFragment"
+        android:label="@string/homeFragment_text"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.fh_campus_movieapp.fragments.DetailFragment"
+        android:label="@string/detailFragment_text" >
+        <argument
+            android:name="movie"
+            app:argType="com.example.fh_campus_movieapp.collections.movie.Movie" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.fh_campus_movieapp.fragments.FavoritesFragment"
+        android:label="@string/FavoritesFragment_text"
+        tools:layout="@layout/fragment_favorites" />
+</navigation>

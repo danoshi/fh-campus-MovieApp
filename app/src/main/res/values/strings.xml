@@ -17,5 +17,10 @@
 \nthe series was nominated for the 78th annual Golden Globe Awards in 2 categories. \n\n</string>
     <string name="namesCreators">Scott Frank, Alan Scott</string>
     <string name="namesActors">Anya Taylor-Joy, Chloe Pirrie</string>
+    <string name="HomeTitle">Welcome to MovieApp</string>
+    <string name="details">See more</string>
+    <string name="FavoritesFragment_text">Favorites</string>
+    <string name="detailFragment_text">Film Details</string>
+    <string name="homeFragment_text">Home</string>
 
 </resources>
